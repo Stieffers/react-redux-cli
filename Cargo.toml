@@ -1,0 +1,13 @@
+[package]
+name = "reactreduxcli"
+version = "0.1.1"
+authors = ["Taylor Stieff"]
+include = ["res/**/*"]
+
+[[bin]]
+path = "src/main.rs"
+name = "recli"
+
+[dependencies]
+ansi_term = "*"
+argparse = "*"
